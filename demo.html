@@ -1,0 +1,28 @@
+<html>
+  <head>
+      
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene light="defaultLightsEnabled: true">
+
+<!--       <a-sphere src="https://static.turbosquid.com/Preview/2018/03/21__03_15_38/Color_map.jpg71C262F0-35B3-4308-9075-66BF0BB4436ADefault.jpg" animation="property: rotation; to: 0 360 0; dur: 15000; easing: linear; repeat:indefinite;" position="0 1 -5" radius="2" color="#FFCC00">
+				
+				<a-entity light="type: ambient; color: #ffffff; intensity: 1" position="0 0 0"></a-entity>
+				
+				<a-entity light="type: ambient; color: #ffffff; intensity: 1" position="0 0 0"></a-entity></a-sphere> -->
+    <a-assets>
+    <!-- <a-asset-item id="cityModel" src="https://cdn.aframe.io/test-models/models/glTF-2.0/virtualcity/VC.gltf"></a-asset-item> -->
+    <a-asset-item id="cityModel" src="http://localhost/github/federal-ar-project/boxanimated.glb"></a-asset-item>
+    <!-- <a-asset-item id="cityModel" src="http://localhost/github/federal-ar-project/untitled.glb"></a-asset-item> -->
+    <!-- <a-asset-item id="cityModel" src="http://localhost/github/federal-ar-project/ptlogo.glb"></a-asset-item> -->
+  </a-assets>
+  <!-- <a-entity gltf-model="#cityModel" position="0 0 -10.60" scale="0.1 0.1 0.1" animation-mixer="duration:auto;"></a-entity> -->
+  <a-entity gltf-model="http://localhost/github/federal-ar-project/boxanimated.glb" position="0 0 0" scale="0.88348 0.88348 0.88348" animation-mixer="" id="box"></a-entity>
+			
+			
+      
+    </a-scene>
+  </body>
+</html>
